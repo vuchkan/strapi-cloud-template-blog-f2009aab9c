@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "properties",
+  "info": {
+    "singularName": "property",
+    "pluralName": "properties",
+    "displayName": "Property"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "promoLabel": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "developer": {
+      "type": "string"
+    },
+    "propertyType": {
+      "type": "enumeration",
+      "enum": [
+        "Studio",
+        "One Bedroom",
+        "Two Bedrooms",
+        "Three Bedrooms"
+      ]
+    },
+    "location": {
+      "type": "enumeration",
+      "enum": [
+        "Dubai South",
+        "Meydan",
+        "Dubai Hills",
+        "Business Bay",
+        "Business Bay 2",
+        "Downtown"
+      ]
+    },
+    "address": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    },
+    "deliveryTime": {
+      "type": "string"
+    },
+    "project": {
+      "type": "string"
+    },
+    "features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.features"
+    }
+  }
+}

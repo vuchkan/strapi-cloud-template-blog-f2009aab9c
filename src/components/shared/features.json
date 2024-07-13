@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_features",
+  "info": {
+    "displayName": "features"
+  },
+  "options": {},
+  "attributes": {
+    "beds": {
+      "type": "string"
+    },
+    "area": {
+      "type": "float"
+    },
+    "floor": {
+      "type": "string"
+    },
+    "furnished": {
+      "type": "boolean"
+    },
+    "bathrooms": {
+      "type": "string"
+    }
+  }
+}
